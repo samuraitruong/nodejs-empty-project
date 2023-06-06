@@ -1,0 +1,23 @@
+# EditorConfig is a file format supported by most code editors
+# Visit http://editorconfig.org for details
+
+# Top-most EditorConfig file
+root = true
+
+# Indentation style
+[*]
+indent_style = space
+indent_size = 4
+
+# Specify file types where the settings should be applied
+[*.js]
+indent_size = 4
+
+[*.ts]
+indent_size = 4
+
+[*.html]
+indent_size = 4
+
+[*.css]
+indent_size = 4
