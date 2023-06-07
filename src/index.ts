@@ -1,6 +1,4 @@
-export function helloWorld(): boolean {
-  console.log("Hello World");
-  return true;
-}
+import "module-alias/register";
+import { helloWorld } from "@lib/hello-word";
 
-console.log("Hello World");
+helloWorld();

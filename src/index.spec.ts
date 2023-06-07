@@ -1,4 +1,4 @@
-import { helloWorld } from ".";
+import { helloWorld } from "@lib/hello-word";
 
 describe("Test suite", () => {
   it("should pass", () => {
